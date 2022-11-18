@@ -4,7 +4,6 @@ css/main.css
 prepros-6.config
 .idea
 node_modules
-dist
 .DS_Store
 package-lock.json
 gulpfile.js
