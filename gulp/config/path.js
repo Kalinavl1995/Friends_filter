@@ -15,7 +15,7 @@ export default {
     },
     css: {
         src: PATH_SRC + `/css/*.css`,
-        dist: PATH_DIST + `/css`,
+        dist: PATH_DIST,
         watch: `${PATH_SRC}/css/**/*.css`
     },
     scss: {

@@ -26,7 +26,6 @@ export default () => {
         .pipe(webpCss())
         .pipe(autoprefixer())
         .pipe(groupCssMediaQueries())
-        .pipe(gulp.dest($.path.css.dist, { sourcemaps: $.app.isDev }))
         .pipe(rename({suffix: '.min' }))
         .pipe(shorthand())
         .pipe(csso())
